@@ -1,0 +1,38 @@
+.search-shop-left,.ad-right{
+    width:301px;
+
+}
+.children-head-news{
+    width:410px;
+
+}
+.search-shop-left,.children-head-news,.ad-right{
+    height: 400px;
+    border:#7EC4CC 1px solid;
+}
+.sigle-shop-detail{
+    width: 508px;
+    height: 200px;
+    border:#e13300 1px solid;
+}
+.shop-detail-image{
+    width:200px;
+    height: 100%;
+    float: left;
+    border:#e13300 1px solid;
+}
+
+.shop-detail-other{
+    width: 300px;
+    height: 100%;
+    float: right;
+    border:#e13300 1px solid;
+}
+.shop-detail-other ul {
+    list-style-type: none;
+    display: inline;
+}
+.shop-nav-toolbar{
+    width: 1022px;
+    height: 25px;
+}

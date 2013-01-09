@@ -1,0 +1,25 @@
+.info-ad-head{
+    width:1020px;
+    height: 100px;
+    border: #9de196 1px solid;
+}
+.font-pic-left,.font-pic-right,.font-artitle-center{
+    height:260px;
+    border:#e29de2 1px solid;
+}
+.font-pic-left,.font-pic-right{
+    width:280px;
+
+}
+.font-artitle-center{
+    width:450px;
+}
+.info-recommend-cook{
+    width:1020px;
+    height:180px;
+}
+.info-cook-block{
+    width:337px;
+    height: 430px;
+    border:#7EC4CC 1px solid;
+}

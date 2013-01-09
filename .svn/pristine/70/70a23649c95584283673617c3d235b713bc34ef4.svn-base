@@ -1,0 +1,112 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: 汉图
+ * Date: 12-1-18
+ * Time: 下午11:08
+ * To change this template use File | Settings | File Templates.
+ */
+class Admin extends CI_Controller
+{
+
+
+    public function index()
+    {
+
+        echo ( ! function_exists('mcrypt_encrypt')) ? 'Nope' : 'Yup';
+
+        $hash = sha1('Some string');
+        echo $hash;
+    }
+
+    public function data()
+    {
+      $json = <<<JSON
+          [
+          {
+             name:'用户管理',
+             isParent:true,
+             href:'javascript:;',
+             link:'',
+             children:[
+
+               {
+                   name:'用户列表',
+                   link:'user/list'
+               }
+             ]
+          },{
+              name:'文章管理',
+              isParent:true,
+              children:[
+                 {
+                     name:'文章分类',
+                     link:'newscatalog/list'
+                 },
+                 {
+                     name:'文章管理',
+                     link:'artitle/list'
+                 },{
+                     name:'评论管理',
+                     link:'comment/list'
+                 }
+              ]
+
+          },{
+             name:'商家管理',
+             isParent:true,
+             children:[
+                {
+                   name:'商家分类',
+                   link:'shopcategory/view/list'
+
+                },
+                {
+                   name:'商家列表',
+                   link:'shops/list'
+                }
+             ]
+
+          },
+          {
+             name:'主页管理',
+             link:'admin/subview/homemgr',
+             isParent:false
+          }
+
+          ]
+JSON;
+
+
+
+        header("Content-Type: application/json; charset=UTF-8");
+        echo $json;
+        //echo json_encode($nodes);
+    }
+
+
+    public function view($page = 'home')
+    {
+        if (!file_exists('application/views/admin/' . $page . '.php')) {
+            // Whoops, we don't have a page for that!
+            show_404();
+        }
+        $data['title'] = ucfirst($page); // Capitalize the first letter
+        $this->load->view('templates/admin/header', $data);
+        $this->load->view('admin/' . $page, $data);
+        $this->load->view('templates/admin/footer', $data);
+
+    }
+
+    public  function subview($page='homemgr'){
+        if (!file_exists('application/views/admin/' . $page . '.php')) {
+            // Whoops, we don't have a page for that!
+            show_404();
+        }
+        $data['title'] = ucfirst($page); // Capitalize the first letter
+
+        $this->load->view('admin/' . $page, $data);
+
+    }
+
+}

@@ -1,0 +1,16 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: 汉图 QQ285799123
+ * Date: 12-3-10
+ * Time: 下午6:18
+ * 欢迎联系
+ *To change this template use File | Settings | File Templates.
+ */
+
+$config['upload_path'] = './statics/image/upload/';
+$config['allowed_types'] = 'gif|jpg|png';
+$config['max_size'] = '1024';//KB
+$config['max_width'] = '1024';
+$config['max_height'] = '768';
+?>

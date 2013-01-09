@@ -1,0 +1,44 @@
+body{
+    font-size:12px;
+}
+.search-shop-left,.ad-right{
+    width:301px;
+
+}
+.children-head-news{
+    width:371px;
+
+}
+.search-shop-left,.children-head-news{
+    height: 400px;
+
+}
+.ad-right{
+    height: 200px;
+}
+.sigle-shop-detail{
+    width: 496px;
+    height: 200px;
+
+}
+.shop-detail-image{
+    width:194px;
+    height: 100%;
+    float: left;
+
+}
+
+.shop-detail-other{
+    width: 294px;
+    height: 100%;
+    float: right;
+
+}
+.shop-detail-other ul {
+    list-style-type: none;
+    display: inline;
+}
+.shop-nav-toolbar{
+    width: 1000px;
+    height: 25px;
+}

@@ -1,0 +1,8 @@
+<textarea id="myEditor">这里是原始的textarea中的内容，可以从数据中读取</textarea>
+<script type="text/javascript">
+
+    var editor_a = new baidu.editor.ui.Editor();
+    editor_a.render('myEditor');
+
+
+</script>

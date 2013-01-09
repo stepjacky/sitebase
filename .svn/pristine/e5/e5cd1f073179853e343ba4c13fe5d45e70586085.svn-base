@@ -1,0 +1,62 @@
+<link href="statics/css/shopmap.css" rel="stylesheet" media="screen" />
+<div class="element shop-map-left">
+  <div class="shop-map-search-box">
+         search-box
+
+  </div>
+
+  <div class="shop-map-search-box2">
+            search-box2
+
+  </div>
+  <div class="shop-map-field">
+       field1
+
+  </div>
+  <div class="shop-map-field">
+       field2
+
+  </div>
+</div>
+<div class="element shop-map-right">
+   <div class="shop-map-recommenda">
+          recommand-a
+   </div>
+   <div class="shop-map-recommandb">
+         recommand-b
+
+   </div>
+</div>
+<div class="element shop-map-shop-block">
+    <ul>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+
+    </ul>
+</div>
+<div class="element shop-map-shop-block">
+    <ul>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+
+    </ul>
+</div>
+<div class="element shop-map-shop-block">
+    <ul>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+        <li>商家1</li>
+
+    </ul>
+</div>

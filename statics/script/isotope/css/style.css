@@ -1,0 +1,117 @@
+/**** Isotope styles ****/
+
+/* required for containers to inherit vertical size from window */
+*{
+    font-size:12px;
+}
+html,body{
+    font-size:12px;
+    margin: 0;
+    padding: 0;
+}
+#container {
+  width:1000px;
+  height: auto;
+  min-height: 1500px;
+ /* border: 1px solid #666;*/
+  padding: 1px;
+  margin: 0 auto;
+
+}
+
+.element {
+  margin: 0;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  color: #000000;
+  border: 1px solid #C7C8CA;
+}
+
+/* The Magnificent Clearfix: nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    color:#e9322d;
+    text-decoration:underline;
+}
+a:visited {
+    color: #e1197c;
+}
+
+
+/***no-border **/
+.element-header{
+    background: url("../../../image/all/titlebg.jpg") repeat scroll 0 0 transparent;
+    font-size: 14px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+
+    width: 100%;
+}
+.element-header span{
+    margin-left: 10px;
+    font-size:14px;
+    font-weight: bolder;
+}
+
+.element-border {
+    border: 1px solid #C7C8CA;
+}
+.floatleft{
+    float: left;
+    overflow: hidden;
+}
+
+.floatright {
+    color: #282828;
+    float: right;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.margin-lr10{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-message{
+    width: 100%;
+    height: 50px;
+}
+.margin-top10{
+    margin-top: 10px;
+}
+
+.no-border{
+    border: none;
+}
+
+.no-border-bottom{
+    border-bottom: none;
+}
+.no-border-left{
+    border-left: none;
+}
+.no-border-right{
+    border-right: none;
+}
+.no-border-top{
+    border-top: none;
+}
+.no-border-right-bottom{
+    border-right: none;
+    border-bottom:none;
+}
+
+.padding-top-banner{
+    padding-top: 30px;
+}

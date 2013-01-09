@@ -1,0 +1,47 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: 汉图
+ * Date: 12-1-18
+ * Time: 下午11:08
+ * To change this template use File | Settings | File Templates.
+ */
+class Pages extends CI_Controller {
+
+
+    public function index(){
+        if ( ! file_exists('application/views/pages/index.php'))
+        {
+            // Whoops, we don't have a page for that!
+            show_404();
+        }
+
+        $this->load->view('templates/header');
+        $this->load->view('pages/index');
+        $this->load->view('templates/footer');
+    }
+
+    public function download(){
+
+        header("Content-type: application/octet-stream");//FILE流
+        header("Accept-Ranges: bytes");
+        header("Accept-Length: 1024");//提示将要接收的文件大小
+        header("Content-Disposition: attachment; filename=file.json"); //提示终端浏览器下载操作
+    }
+
+	public function view($page = 'home')
+	{
+        if ( ! file_exists('application/views/pages/'.$page.'.php'))
+        	{
+        		// Whoops, we don't have a page for that!
+        		show_404();
+        	}
+
+        	$data['title'] = ucfirst($page); // Capitalize the first letter
+        	$this->load->view('templates/header', $data);
+        	$this->load->view('pages/'.$page, $data);
+        	$this->load->view('templates/footer', $data);
+
+	}
+
+}

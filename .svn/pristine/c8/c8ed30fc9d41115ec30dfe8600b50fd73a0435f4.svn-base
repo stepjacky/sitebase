@@ -1,0 +1,48 @@
+.shop-image-show,.shop-map{
+    width:420px;
+
+}
+
+.shop-details-show ,.shop-details-more{
+    width: 600px;
+
+}
+
+.shop-details-show ,.shop-image-show,.shop-map,.shop-details-more{
+    height: 400px;
+}
+
+.shop-details-more-top,.shop-details-more-bottom{
+    width:100%;
+    height: 50%;
+    border:#e13300 1px dotted;
+}
+
+
+.shop-vote{
+    width:395px;
+}
+.shop-discount{
+    width:200px
+}
+.shop-vote,.shop-discount{
+    height: 100%;
+    border: #ee6666 1px dotted;
+}
+
+.shop-left-list,.shop-right-list{
+    width:239px;
+
+}
+.shop-description{
+    width:540px;
+}
+
+.shop-left-list,.shop-right-list,.shop-description{
+    height: 850px;
+}
+
+.shop-user-commit{
+    width:1022px;
+    height: 600px;
+}

@@ -1,0 +1,85 @@
+<link href="statics/css/artitle.css" rel="stylesheet" media="screen" />
+<div class="element artitle-head">
+
+</div>
+<div class="element artitle-content">
+  <div class="artitle-content-head">
+
+  </div>
+  <div class="artitle-content-summary">
+
+
+  </div>
+</div>
+
+<div class="element artitle-recommend">
+  <div class="artitle-recommend-head">
+
+  </div>
+  <div class="artitle-recommend-shop">
+    <div class="artitle-recommend-shop-img">
+      图片
+    </div>
+    <div class="artitle-recommend-shop-info">
+      商家简要
+    </div>
+  </div>
+    <div class="artitle-recommend-shop">
+       <div class="artitle-recommend-shop-img">
+         图片
+       </div>
+       <div class="artitle-recommend-shop-info">
+         商家简要
+       </div>
+     </div>
+    <div class="artitle-recommend-shop">
+    <div class="artitle-recommend-shop-img">
+      图片
+    </div>
+    <div class="artitle-recommend-shop-info">
+      商家简要
+    </div>
+  </div>
+    <div class="artitle-recommend-shop">
+    <div class="artitle-recommend-shop-img">
+      图片
+    </div>
+    <div class="artitle-recommend-shop-info">
+      商家简要
+    </div>
+  </div>
+    <div class="artitle-recommend-shop">
+    <div class="artitle-recommend-shop-img">
+      图片
+    </div>
+    <div class="artitle-recommend-shop-info">
+      商家简要
+    </div>
+  </div>
+    <div class="artitle-recommend-shop">
+       <div class="artitle-recommend-shop-img">
+         图片
+       </div>
+       <div class="artitle-recommend-shop-info">
+         商家简要
+       </div>
+     </div>
+    <div class="artitle-recommend-shop">
+       <div class="artitle-recommend-shop-img">
+         图片
+       </div>
+       <div class="artitle-recommend-shop-info">
+         商家简要
+       </div>
+     </div>
+    <div class="artitle-hots">
+        推荐文章-滚动
+
+    </div>
+</div>
+
+
+
+<div class="element artitle-navigate-bar">
+
+</div>

@@ -1,0 +1,55 @@
+﻿/* ---------------------- Redslate nav ---------------------- */
+.red #slatenav {
+    position: relative;
+    display: block;
+    height: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    background: transparent url(image/redslate_background.gif) repeat-x top left;
+    font-family: Arial, Verdana, Helvitica, sans-serif;
+    text-transform: uppercase;
+}
+
+.red #slatenav ul {
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+}
+
+.red #slatenav ul li {
+    display: block;
+    float: left;
+    margin: 0 1px 0 0;
+    width: 87px;
+}
+
+.red #slatenav ul li a {
+    display: block;
+    float: left;
+    color: #FECCC3;
+    text-align:center;
+    padding: 10px 0 0 0 ;
+    text-decoration: none;
+    height: 35px;
+    width:90px;
+}
+
+.red #slatenav ul li a span {
+    display: block;
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0;
+    height: 35px;
+    font-size:14px;
+    font-weight: bolder;
+}
+
+.red #slatenav ul li a:hover, .red #slatenav ul li a.current {
+    color: #fff;
+    background: transparent url(image/redslate_backgroundOVER.gif) no-repeat top center;
+}
+
+/* ---------------------- END Redslate nav ---------------------- */

@@ -1,0 +1,28 @@
+table.top20shops{
+    list-style: none;
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
+}
+table.top20shops tr{
+    line-height: 18px;
+    height: 16px;
+    width: 100%;
+
+    margin-bottom: 4px;
+
+}
+.sname-td{
+    width: 75px;
+    color: #ff80b3;
+    margin-left:10px;
+}
+.pdate-td{
+    width: 70px;
+    font-size: 11px;
+    margin-right: 10px;
+}
+table.top20shops tr td {
+
+    border-bottom: #ff4d00 1px dotted
+}

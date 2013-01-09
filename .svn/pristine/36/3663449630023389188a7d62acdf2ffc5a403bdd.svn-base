@@ -1,0 +1,43 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: hantu
+ * Date: 12-5-12
+ * Time: 下午5:55
+ * To change this template use File | Settings | File Templates.
+ */
+class Shopcategory extends CI_Controller
+{
+
+    private $modelName="Shopcategorymodel";
+    function __construct(){
+        parent::__construct();
+        $this->firelog("我是shopcategory控制器");
+
+    }
+
+    public function view($page = 'home')
+    {
+        if (!file_exists('application/views/shopcategory/' . $page . '.php')) {
+            // Whoops, we don't have a page for that!
+            show_404();
+        }
+        $this->load->view("shopcategory/" . $page . ".php");
+
+    }
+
+    public  function listdata(){
+
+
+        header("Content-Type: application/json; charset=UTF-8");
+
+        $this->load->model('Shopcategorymodel');
+
+        $page = $this->input->get('page');
+        $rows = $this->input->get('rows');
+        //$json="{}";
+        $json = $this->Shopcategorymodel->datalist($page,$rows);
+        $this->firelog($json);
+        echo $json;
+    }
+}

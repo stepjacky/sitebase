@@ -1,0 +1,127 @@
+.shop-title{
+    width: 1000px;
+    height: 150px;
+}
+
+.topmenu{
+    width:1000px;
+    height: 40px;
+
+}
+.shop-image-show{
+    width: 1000px;
+    height:300px;
+
+}
+
+.shop-album{
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+
+.shop-details-show,.shop-map,.shop-new-trends{
+    width: 298px;
+    height: 300px;
+}
+.shop-details-show{
+    height: 350px;
+}
+.shop-details-more,.shop-description,.shop-charactics,.shop-prefer-action {
+    width:700px;
+    height: 600px;
+
+}
+
+
+
+.shop-prefer-action , .shop-details-more{
+    height: 370px;
+}
+.shop-description,.shop-map{
+    height: 350px;
+}
+.shop-charactics{
+    height: 370px;
+}
+
+
+
+
+.shop-new-trends{
+    height: 628px;
+    margin:0 auto;
+}
+
+.shop-about{
+    margin-top: 2px;
+    width:1000px;
+    height: 100px;
+
+}
+
+
+
+.shop-left-side,.shop-right-side{
+    height: 1320px;
+}
+
+.shop-left-side{
+    width: 298px;
+}
+.shop-right-side{
+    width: 700px;
+}
+
+
+.shop-adverties,.shop-introduce{
+    width:100%;
+    height: 100%;
+}
+
+.shop-commentary{
+    width: 100%;
+    height: 80%;
+
+}
+
+.shop-commentary-form{
+    width: 700px;
+    height: 230px;
+
+}
+
+.shop-product-run{
+    width: 700px;
+    height: 300px;
+}
+
+.shop-commentary-form textarea{
+    width: 400px;
+    height: 100px;
+}
+.simple-intro{
+    padding-left:10px;
+    margin-top:10px;
+    list-style: none;
+}
+.simple-intro li{
+    line-height: 20px;
+}
+#baidumap{
+    width: 100%;
+    height: 100%;
+}
+#scroller{
+    margin-top: 10px;
+    width: 700px;
+    height: 160px;
+}
+
+ul.simple-intro li b {
+    margin-right: 10px;
+}

@@ -1,0 +1,29 @@
+/**** Isotope styles ****/
+
+/* required for containers to inherit vertical size from window */
+
+html,body{
+    font-size:13px;
+}
+#container {
+  width:1024px;
+  height: 1500px;
+  border: 1px solid #666;
+  padding: 1px;
+  margin: 0 auto;
+
+}
+
+.element {
+  margin: 1px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background: #888;
+  color: #222;
+}
+
+/* The Magnificent Clearfix: nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

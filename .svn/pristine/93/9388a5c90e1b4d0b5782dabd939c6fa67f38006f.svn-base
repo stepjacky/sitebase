@@ -1,0 +1,8 @@
+目录存放说明
+apps/    程序里所用到的js
+dwz/      后台管理布局js
+skitter/   图片跑马灯效果
+ueditor/   在线编辑器
+zTree       树控件
+animated-menu / 动画菜单
+vticker/ 新闻循环滚动 

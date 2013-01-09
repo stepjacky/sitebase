@@ -1,0 +1,56 @@
+<link href="statics/css/shop.css" media="screen" rel="stylesheet" />
+<div class="element shop-image-show">
+
+</div>
+<div class="element shop-details-show">
+<ul>
+    <li>商家区域</li>
+    <li>商家类型</li>
+    <li>主要经营</li>
+    <li>特色经营</li>
+    <li>营业时间</li>
+    <li>营业面积</li>
+    <li>商家电话</li>
+    <li>商务QQ</li>
+    <li>优惠打折</li>
+</ul>
+</div>
+
+<div class="element shop-map">
+
+ </div>
+ <div class="element shop-details-more">
+     <div class="shop-details-more-top">
+         <ul>
+             <li>商家地址</li>
+             <li>相关路段</li>
+             <li>周边建筑</li>
+             <li>公交路线</li>
+
+         </ul>
+     </div>
+     <div class="shop-details-more-bottom">
+        <div class="shop-vote">
+
+        </div>
+        <div class="shop-discount">
+
+        </div>
+
+     </div>
+ </div>
+ <div class="element shop-left-list">
+     left-side
+ </div>
+<div class="element shop-description">
+
+    desc
+</div>
+
+ <div class="element shop-right-list">
+
+right-list
+ </div>
+ <div class="element shop-user-commit">
+user-commit
+ </div>

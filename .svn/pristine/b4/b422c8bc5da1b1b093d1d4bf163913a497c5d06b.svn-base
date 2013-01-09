@@ -1,0 +1,212 @@
+<link href="statics/css/children.css" media="screen" rel="stylesheet" />
+<div class="element search-shop-left">
+    search-shop
+</div>
+<div class="element children-head-news">
+    head-news
+</div>
+<div class="element ad-right">
+    right-ad
+</div>
+<div class="element global-ad">
+        g-ad2
+
+</div>
+
+<!-- 商家详细开始 -->
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="element sigle-shop-detail">
+  <div class="shop-detail-image">
+        shop-image
+  </div>
+  <div class="shop-detail-other">
+
+    <ul>
+        <li>名称:</li>
+        <li>城市: 区域:</li>
+        <li>商家类型: 街道:</li>
+        <li>电话: <button>查看促销</button></li>
+        <li>地址: </li>
+        <li>折扣</li>
+
+    </ul>
+
+  </div>
+</div>
+<div class="element shop-nav-toolbar">
+</div>
+<div class="element global-ad">
+
+    global-ad3
+</div>
+<!-- 商家详细结束 -->

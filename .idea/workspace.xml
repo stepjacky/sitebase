@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="3c373098-bcbd-4417-bbf8-1cf8000a6acd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/subview" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/common" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/picture" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/shops" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/user" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/bootstrap/css/ie" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/bootstrap/js/ie" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/mainmenu/image" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/mainmenu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/pages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/shopmenu/images/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/shopmenu/images/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/shopmenu/images/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/shopmenu/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/shopmenu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/image/upload" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/picture" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/user" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/clear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/flash/focus2.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/flash" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/picture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/helpers/MY_form_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/helpers/MY_html_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/picturemodel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/usermodel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/backnd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/subview/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/common/formfailed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/common/formsuccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/shops/advertise.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/shops/introduce.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/shops/topmenu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/user/list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/mainmenu/navigation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/pages/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/shopmenu/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/admin/backnd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/admin/navtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/picture/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/user/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/flash/home-flash.php" />
+      <change type="DELETED" beforePath="I:\website\sitebase\application\views\manager\calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\children.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\default.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\index.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\animated-menu.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\animated-menu.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\animated-menu.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\js\jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\bin\dwz.min.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\changepwd.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\combox\area_all.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\combox\area_bj.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\combox\area_sh.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\combox\city_all.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\combox\city_bj.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\combox\city_sh.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\common\ajaxDone.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\common\ajaxTimeout.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\db_attachmentBrightBack.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\db_attachmentLookup.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\db_lookupSuggest.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\db_select.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\db_widget.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\dwzOrgLookup.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\dwzOrgLookup2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\treeBringBack.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database\treeLookup.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\ajaxDone1.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\ajaxDone2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\ajaxDone3.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\dialog1.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\dialog2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\layout1.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\layout2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\list1.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\list2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination\list3.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\sortDrag\1.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\sortDrag\2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo_page1.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo_page2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo_page4.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo_page5.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo_page6.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo_upload.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\dwz.frag.xml" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\index.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\index_menu.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.alertMsg.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.barDrag.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.combox.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.contextmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.core.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.cssTable.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.database.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.dialogDrag.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.drag.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.effects.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.history.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.navTab.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.pagination.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.panel.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.print.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.regional.zh.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.scrollCenter.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.sortDrag.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.stable.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.switchEnv.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.tab.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.taskBar.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.theme.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.tree.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.ui.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.util.date.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\dwz.validate.method.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\jquery-1.7.1.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\jquery.bgiframe.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js\speedup.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\login.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\login_dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\main.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\newPage1.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\newPage2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\newPage3.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\sidebar_1.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\sidebar_2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\tabsPage.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\style.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\css\core.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\css\ieHack.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\css\login.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\css\print.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\style.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\style.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\style.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\style.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify\css\uploadify.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify\scripts\jquery.uploadify.v2.1.0.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify\scripts\swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\validate_remote.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_alert.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_button.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_checkbox.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_combox.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_datepicker.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_editor.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_list.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_panel.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_removeSelected.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_textInput.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_tree.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_uploadify.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\w_validation.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\custom-layout-modes\big-graph.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\custom-layout-modes\category-rows.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\custom-layout-modes\centered-masonry.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\custom-layout-modes\masonry-corner-stamp.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\custom-layout-modes\masonry-gutters.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\custom-layout-modes\spine-align.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\adding-items.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\basic.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\combination-filters.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\elements-complete.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\elements-partial.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\filtering.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\fluid-responsive.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\hash-history.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\images.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\infinite-scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\layout-modes.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\relayout.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\removing.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos\sorting.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\adding-items.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\animating.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\extending-isotope.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\filtering.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\hash-history-jquery-bbq.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\help.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\layout-modes.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\license.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\methods.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\options.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs\sorting.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\index.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\pages\2.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\pages\3.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\pages\4.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\pages\5.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\pages\6.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\destroy.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\elements-complete-test.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\flash.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\index.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\item-position-data.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\jquery-animation.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\no-items.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\onlayout.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\right-to-left.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\tiny-text.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests\unclickable-filtered.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\css\highlight.black.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\css\highlight.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\css\sexy-bookmarks-style.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\css\skitter.styles.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\css\styles.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\fullscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\index.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\jquery-1.5.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\jquery-1.6.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\jquery.animate-colors-min.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\jquery.skitter.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\jquery.skitter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js\sexy-bookmarks-public.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\multiple.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\xml\slides.xml" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\Editor.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\EventBase.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\dom\Range.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\dom\Selection.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\dom\domUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\dom\dtd.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\editor.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\attachment.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\autofloat.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\autoheight.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\autolink.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\autotypeset.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\basestyle.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\blockquote.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\catchremoteimage.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\cleardoc.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\contextmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\customstyle.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\delete.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\directionality.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\elementpath.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\emotion.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\enterkey.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\fiximgclick.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\font.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\formatmatch.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\horizontal.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\iframe.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\image.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\indent.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\inserthtml.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\justify.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\keystrokes.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\lineheight.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\link.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\list.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\map.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\pagebreak.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\paragraph.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\paste.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\preview.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\print.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\removeformat.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\rowspacing.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\selectall.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\shortcutkeys.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\snapscreen.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\source.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\spechars.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\table.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\time.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\undo.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\video.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\wordcount.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins\wordimage.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\autotypesetbutton.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\autotypesetpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\button.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\colorbutton.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\combox.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\editor.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\editorui.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\mask.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\menu.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\menubutton.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\multiMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\popup.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\popupbutton.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\separator.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\splitbutton.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\stateful.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\tablebutton.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\tablepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\toolbar.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\ui.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\uibase.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui\uiutils.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\submit\php\getContent.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\submit\php\getMovie.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\submit\php\getRemoteImage.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\submit\php\imageManager.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload\jsp\imageUp.jsp" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload\php\fileUp.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload\php\imageUp.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload\php\snapImgUp.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\asyncData\getNodes.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\asyncData\getNodesForBigData.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\bigdata\common.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\bigdata\diy_async.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\bigdata\page.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\async.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\async_fun.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\click.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\custom_font.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\custom_icon.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\custom_iconSkin.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\expand.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\noicon.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\noline.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\otherMouse.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\searchNodes.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\simpleData.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\standardData.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\update_fun.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core\url.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\checkbox.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\checkbox_chkDisabled.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\checkbox_count.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\checkbox_fun.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\checkbox_halfCheck.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\checkbox_nocheck.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\radio.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\radio_chkDisabled.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\radio_fun.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\radio_halfCheck.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck\radio_nocheck.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit\async_edit.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit\drag.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit\drag_fun.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit\drag_super.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit\edit.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit\edit_fun.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit\edit_super.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit\multiTree.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\index.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\checkbox_radio.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\diydom.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\left_menu.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\oneclick.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\oneroot.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\rightClickMenu.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\select_menu.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\select_menu_checkbox.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\select_menu_radio.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super\singlepath.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\更新日志3.x.txt" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\application\views\manager" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/shopcategory" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\images\blue-item-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\images\green-item-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\images\purple-item-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\images\red-item-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\images\yellow-item-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\images" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu\js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\animated-menu" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\bin" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\combox" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\common\dwz-team.xls" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\common" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\database" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\pagination" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo\sortDrag" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\demo" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\doc\dwz-user-guide.chm" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\doc" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\accordion\accordion.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\accordion" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\account_info_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\alert\alertpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\alert\alertpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\alert" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\button\button_s.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\button\imgX.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\button\imgX.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\button" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\dialog\dialogpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\dialog\dialogpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\dialog" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\form\input_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\form\input_bt.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\form" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\grid\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\grid\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\grid\resizeCol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\grid\tableth.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\grid" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\layout\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\layout\taskbar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\layout\taskbar_control.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\layout\taskbar_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\layout\toggleSidebar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\layout" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\listLine.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\menu\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\menu\menu.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\menu" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\order_down.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\order_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\pageHeader_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\panel\panel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\panel\panel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\panel" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\preview.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\progressBar\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\progressBar\progressBar_l.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\progressBar\progressBar_m.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\progressBar\progressBar_s.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\progressBar" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\search-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\search-bt.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_c_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_c_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_c_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_f_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_f_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_f_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_h_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_h_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow\shadow_h_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\shadow" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tabs\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tabs\tabscontrol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tabs\tabspage.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tabs\tabspage_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tabs\tabspanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tabs" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tree\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tree\check.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tree\folder.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tree\tree.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images\tree" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure\images" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\azure" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\accordion\accordion.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\accordion" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\account_info_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\alert\alertpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\alert\alertpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\alert" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\button\button_s.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\button\imgX.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\button" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\dialog\dialogpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\dialog\dialogpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\dialog" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\form\input_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\form\input_bt.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\form" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\grid\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\grid\resizeCol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\grid\tableth.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\grid" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\layout\taskbar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\layout\taskbar_control.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\layout\taskbar_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\layout\toggleSidebar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\layout" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\listLine.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\login_banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\login_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\login_content_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\login_header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\login_list.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\login_logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\login_sub.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\login_title.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\menu\menu.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\menu" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\order_down.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\order_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\pageHeader_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\panel\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\panel\panel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\panel\panel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\panel" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\progressBar\progressBar_l.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\progressBar\progressBar_m.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\progressBar\progressBar_s.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\progressBar" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\search-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\search-bt.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_c_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_c_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_c_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_f_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_f_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_f_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_h_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_h_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow\shadow_h_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\shadow" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tabs\tabscontrol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tabs\tabspage.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tabs\tabspage_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tabs\tabspanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tabs" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\themeButton.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tree\check.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tree\folder.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tree\tree.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images\tree" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default\images" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\default" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\accordion\accordion.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\accordion" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\account_info_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\alert\alertpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\alert\alertpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\alert" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\button\button_s.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\button" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\dialog\dialogpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\dialog\dialogpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\dialog" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\form\input_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\form\input_bt.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\form" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\grid\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\grid\resizeCol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\grid\tableth.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\grid" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\layout\toggleSidebar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\layout" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\listLine.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\pageHeader_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\panel\panel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\panel\panel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\panel" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\tabs\tabscontrol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\tabs\tabspage.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\tabs\tabspage_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\tabs\tabspanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\tabs" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\tree\tree.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images\tree" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green\images" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\green" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\accordion\accordion.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\accordion" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\account_info_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\alert\alertpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\alert\alertpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\alert" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\button\button_s.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\button" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\dialog\dialogpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\dialog\dialogpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\dialog" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\form\input_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\form\input_bt.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\form" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\grid\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\grid\resizeCol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\grid\tableth.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\grid" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\layout\taskbar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\layout\taskbar_control.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\layout\taskbar_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\layout\toggleSidebar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\layout" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\login_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\login_content_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\login_header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\login_list.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\menu\menu.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\menu" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\pageHeader_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\panel\panel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\panel\panel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\panel" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\progressBar\progressBar_l.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\progressBar\progressBar_m.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\progressBar\progressBar_s.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\progressBar" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_c_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_c_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_c_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_f_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_f_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_f_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_h_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_h_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow\shadow_h_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\shadow" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tabs\tabscontrol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tabs\tabspage.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tabs\tabspage_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tabs\tabspanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tabs" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tree\check.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tree\folder.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tree\tree.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images\tree" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple\images" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\purple" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\accordion\accordion.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\accordion" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\account_info_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\alert\alertpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\alert\alertpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\alert" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\button\button_s.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\button" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\dialog\dialogpanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\dialog\dialogpanel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\dialog" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\form\input_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\form\input_bt.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\form" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\grid\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\grid\resizeCol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\grid\tableth.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\grid" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\layout\taskbar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\layout\taskbar_control.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\layout\taskbar_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\layout\toggleSidebar.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\layout" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\listLine.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\menu\menu.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\menu" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\pageHeader_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\panel\panel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\panel\panel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\panel" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\progressBar\progressBar_l.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\progressBar\progressBar_m.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\progressBar\progressBar_s.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\progressBar" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_c_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_c_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_c_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_f_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_f_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_f_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_h_c.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_h_l.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow\shadow_h_r.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\shadow" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tabs\tabscontrol.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tabs\tabspage.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tabs\tabspage_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tabs\tabspanel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tabs" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tree\check.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tree\folder.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tree\tree.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images\tree" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver\images" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes\silver" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\themes" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify\cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify\css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify\scripts\expressInstall.swf" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify\scripts\uploadify.swf" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify\scripts" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz\uploadify" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\dwz" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\README.mdown" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\custom-layout-modes" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\demos" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\docs" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\pages" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\isotope\tests" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\README.textile" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\021.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\022.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\back-box-label-black.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\background.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\donate-button.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\download-button.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\download-helper.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\download-wp.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\focus-button.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\logo-thiago.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\next.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\pause-button.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\play-button.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\prev.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\sexy-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\sharing-caring.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images\this-is-a-free-plugin.png" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\images" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter\xml" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\skitter" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core\dom" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\core" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\plugins" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src\ui" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_src" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\submit\php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\submit" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload\jsp\commons-fileupload-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload\jsp" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload\php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload\uploadimages" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server\upload" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\server" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\third-party\multiimageuploader4ge.zip" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\asyncData" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\bigdata" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\core" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\excheck" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\exedit" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn\super" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo\cn" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\zTree\demo" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/image/imageUploader.swf" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/image/imageUploader.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/themes/default/images/icons.gif" afterPath="$PROJECT_DIR$/statics/script/ueditor/themes/default/images/icons.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/themes/default/images/icons.png" afterPath="$PROJECT_DIR$/statics/script/ueditor/themes/default/images/icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/search.css" afterPath="$PROJECT_DIR$/statics/css/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/anchor/anchor.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/anchor/anchor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/attachment/attachment.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/attachment/attachment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/emotion/emotion.css" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/emotion/emotion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/emotion/emotion.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/emotion/emotion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/emotion/emotion.js" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/emotion/emotion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/gmap/gmap.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/gmap/gmap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/help/help.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/help/help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/image/image.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/image/image.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/image/image.js" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/image/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/insertframe/insertframe.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/insertframe/insertframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/link/link.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/link/link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/map/map.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/map/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/searchreplace/searchreplace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/snapscreen/snapscreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/spechars/spechars.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/spechars/spechars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/table/table.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/table/table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/video/video.js" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/video/video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/wordimage/wordimage.html" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/wordimage/wordimage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/dialogs/wordimage/wordimage.js" afterPath="$PROJECT_DIR$/statics/script/ueditor/dialogs/wordimage/wordimage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/editor_all.js" afterPath="$PROJECT_DIR$/statics/script/ueditor/editor_all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/editor_all_min.js" afterPath="$PROJECT_DIR$/statics/script/ueditor/editor_all_min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/themes/default/ueditor.css" afterPath="$PROJECT_DIR$/statics/script/ueditor/themes/default/ueditor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="$PROJECT_DIR$/statics/script/ueditor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="$PROJECT_DIR$/statics/script/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
+    </list>
+    <list id="d9f75484-2f33-4305-bbc7-7065a85f3fea" name="Failed commit: Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/shopmenu/images/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/shopmenu/images/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/subview/child.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/picture/dialog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/shops/album.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/shops/commentary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/shops/shopframe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/admin/child.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/admin/homemgr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/picture/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/script/apps/shops/list.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/shopcategory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/shopcategorymodel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/shopcategory/list.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\application\controllers\shops.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\application\views\admin\homemgr.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\application\views\pages\shopmap.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\css\apps\admin\home.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\css\bootstrap\css\error.txt" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\CHANGELOG.TXT" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\completeDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\customPluginDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\customToolbarDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\editor_api.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\highlightDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\index.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\multiDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\resetDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\simpleDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\submitFormDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\website\sitebase\statics\script\ueditor\_examples\textareaDemo.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\Thumbs.db" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\Thumbs.db" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo1.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo1.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo10.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo10.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo11.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo11.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo12.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo12.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo13.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo13.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo14.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo14.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo15.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo15.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo17.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo17.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo19.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo19.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo2.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo2.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo20.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo20.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo3.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo3.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo4.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo4.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo5.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo5.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo6.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo6.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo7.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo7.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo8.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo8.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo9.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\logo\logo9.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\Thumbs.db" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\Thumbs.db" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg1.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg1.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg10_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg10_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg10_l_c_r.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg10_l_c_r.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg11_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg11_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg11_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg11_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg12_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg12_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg12_left_right.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg12_left_right.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg13_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg13_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg13_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg13_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg14_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg14_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg14_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg14_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg14_x.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg14_x.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg15_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg15_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg15_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg15_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg16_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg16_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg16_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg16_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg17_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg17_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_btn1.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_btn1.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_btn2.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_btn2.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_btn3.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_btn3.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_btn4.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_btn4.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_mbg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg18_mbg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg19_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg19_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg19_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg19_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_btn1.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_btn1.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_btn2.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_btn2.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_btn3.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_btn3.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_btn4.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_btn4.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_mbg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg20_mbg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg2_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg2_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg2_center.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg2_center.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg2_left.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg2_left.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg2_right.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg2_right.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg3_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg3_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg3_left_right.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg3_left_right.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg4_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg4_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg5_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg5_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg6_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg6_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg6_l_c_r.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg6_l_c_r.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg7_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg7_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg7_l_c_r.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg7_l_c_r.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg8_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg8_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg8_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg8_btn.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg9_bg.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg9_bg.jpg" />
+      <change type="MODIFICATION" beforePath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg9_btn.jpg" afterPath="I:\website\sitebase\statics\css\mainmenu\image\navigation\bg9_btn.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/pagination.php" afterPath="$PROJECT_DIR$/application/config/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/upload.php" afterPath="$PROJECT_DIR$/application/config/upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin.php" afterPath="$PROJECT_DIR$/application/controllers/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manager.php" afterPath="$PROJECT_DIR$/application/controllers/manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pages.php" afterPath="$PROJECT_DIR$/application/controllers/pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_404.php" afterPath="$PROJECT_DIR$/application/errors/error_404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_general.php" afterPath="$PROJECT_DIR$/application/errors/error_general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pages/child.php" afterPath="$PROJECT_DIR$/application/views/pages/child.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pages/index.php" afterPath="$PROJECT_DIR$/application/views/pages/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/admin/footer.php" afterPath="$PROJECT_DIR$/application/views/templates/admin/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/admin/header.php" afterPath="$PROJECT_DIR$/application/views/templates/admin/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/footer.php" afterPath="$PROJECT_DIR$/application/views/templates/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/header.php" afterPath="$PROJECT_DIR$/application/views/templates/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/artitle.css" afterPath="$PROJECT_DIR$/statics/css/artitle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/bootstrap/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/statics/css/bootstrap/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/statics/css/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/statics/css/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/statics/css/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/statics/css/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/children.css" afterPath="$PROJECT_DIR$/statics/css/children.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/index.css" afterPath="$PROJECT_DIR$/statics/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/shop.css" afterPath="$PROJECT_DIR$/statics/css/shop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/apps/admin/home.js" afterPath="$PROJECT_DIR$/statics/script/apps/admin/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/apps/util.js" afterPath="$PROJECT_DIR$/statics/script/apps/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/isotope/css/style.css" afterPath="$PROJECT_DIR$/statics/script/isotope/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/ueditor/editor_config.js" afterPath="$PROJECT_DIR$/statics/script/ueditor/editor_config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/script/说明.txt" afterPath="$PROJECT_DIR$/statics/script/说明.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/core/Controller.php" afterPath="$PROJECT_DIR$/system/core/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/libraries/Pagination.php" afterPath="$PROJECT_DIR$/system/libraries/Pagination.php" />
+      <change type="MOVED" beforePath="I:\website\sitebase\application\views\admin\home.php" afterPath="$PROJECT_DIR$/application/views/admin/index.php" />
+      <change type="MOVED" beforePath="I:\website\sitebase\application\views\pages\shop.php" afterPath="$PROJECT_DIR$/application/views/shops/shop.php" />
+      <change type="MOVED" beforePath="I:\website\sitebase\application\views\welcome_message.php" afterPath="$PROJECT_DIR$/application/views/welcome.php" />
+    </list>
+    <ignored path="sitebase.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/application/views/templates/admin/header.php" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1338738517117" ignored="false" />
+    <file path="$PROJECT_DIR$/statics/script/isotope/css/style.css" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1341108927149" ignored="false" />
+    <file path="$PROJECT_DIR$/statics/script/apps/admin/child.js" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1339682618394" ignored="false" />
+    <file path="$PROJECT_DIR$/statics/script/apps/admin/homemgr.js" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1339682913492" ignored="false" />
+    <file path="$PROJECT_DIR$/application/config/upload.php" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1340285011156" ignored="false" />
+    <file path="$PROJECT_DIR$/application/config/config.php" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1340288224328" ignored="false" />
+    <file path="$PROJECT_DIR$/statics/script/ueditor/editor_config.js" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1341108577188" ignored="false" />
+    <file path="$PROJECT_DIR$/application/views/pages/child.php" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1338620335791" ignored="false" />
+    <file path="$PROJECT_DIR$/application/views/pages/index.php" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1338535410935" ignored="false" />
+    <file path="$PROJECT_DIR$/application/views/shops/commentary.php" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1338526225344" ignored="false" />
+    <file path="$PROJECT_DIR$/application/views/shops/album.php" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1338526049441" ignored="false" />
+    <file path="$PROJECT_DIR$/statics/css/artitle.css" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1341238982285" ignored="false" />
+    <file path="$PROJECT_DIR$/statics/css/children.css" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1341110395889" ignored="false" />
+    <file path="$PROJECT_DIR$/statics/css/index.css" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1341111334486" ignored="false" />
+    <file path="$PROJECT_DIR$/statics/css/shop.css" changelist="3c373098-bcbd-4417-bbf8-1cf8000a6acd" time="1343398975597" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="I:\website\sitebase" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sitebase" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="picture.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/picture.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.32635984">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/admin/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="23" selection-start="253" selection-end="263" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/statics/script/isotope/css/style.css" />
+        <option value="$PROJECT_DIR$/statics/css/children.css" />
+        <option value="$PROJECT_DIR$/statics/css/index.css" />
+        <option value="$PROJECT_DIR$/statics/script/apps/artitle/list.js" />
+        <option value="$PROJECT_DIR$/application/views/artitle/edit.php" />
+        <option value="$PROJECT_DIR$/application/views/artitle/list.php" />
+        <option value="$PROJECT_DIR$/statics/css/mainmenu/navigation.css" />
+        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
+        <option value="$PROJECT_DIR$/application/controllers/artitle.php" />
+        <option value="$PROJECT_DIR$/statics/css/artitle.css" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/application/views/artitle/index.php" />
+        <option value="$PROJECT_DIR$/statics/css/shop.css" />
+        <option value="$PROJECT_DIR$/statics/css/search.css" />
+        <option value="$PROJECT_DIR$/application/controllers/shop.php" />
+        <option value="$PROJECT_DIR$/application/controllers/picture.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="571" />
+    <option name="y" value="142" />
+    <option name="width" value="1014" />
+    <option name="height" value="952" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CSS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\website\sitebase\statics\css\bootstrap\css" />
+      <recent name="I:\website\sitebase\statics\script" />
+      <recent name="I:\website\sitebase\statics\image\all" />
+      <recent name="I:\website\sitebase\application\views\shoptrends" />
+      <recent name="I:\website\sitebase\application\views\shop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\website\sitebase\application\views\user" />
+      <recent name="I:\website\sitebase\statics\css\bootstrap\js\ie" />
+      <recent name="I:\website\sitebase\application\views\shop" />
+      <recent name="I:\website\sitebase\application\views\shoptrends" />
+      <recent name="I:\website\sitebase\application\views\trends" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="true">C:\Users\hantu\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="I:\website\sitebase" />
+          <option name="myCopyRoot" value="I:\website\sitebase" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="I:\website\sitebase\.idea" />
+          <option name="myCopyRoot" value="I:\website\sitebase\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="I:\website\sitebase" />
+          <option name="myCopyRoot" value="I:\website\sitebase" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c373098-bcbd-4417-bbf8-1cf8000a6acd" name="Default" comment="" />
+      <changelist id="d9f75484-2f33-4305-bbc7-7065a85f3fea" name="Failed commit: Default" comment="" />
+      <created>1326897530032</created>
+      <updated>1326897530032</updated>
+    </task>
+    <task id="LOCAL-00001">
+      <created>1336802960703</created>
+      <updated>1336802960703</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1336842139104</created>
+      <updated>1336842139104</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1337183221726</created>
+      <updated>1337183221726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="571" y="142" width="1014" height="952" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3611111" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32658958" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2673426" sideWeight="0.28635347" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48634455" sideWeight="0.99614394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2673426" sideWeight="0.29194632" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3611111" sideWeight="0.49839744" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38583815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4222561" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28810975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.45805368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="31" selection-start="3619" selection-end="3619" vertical-scroll-proportion="0.31055155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/artitle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="12" selection-start="477" selection-end="477" vertical-scroll-proportion="0.3262159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/artitlecategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="32" selection-start="631" selection-end="631" vertical-scroll-proportion="-8.823529" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/artitlecategorymodel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="200" selection-end="200" vertical-scroll-proportion="-5.882353" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/artitle/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.02997602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="47" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.8093525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/shops/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="540" selection-end="540" vertical-scroll-proportion="0.54811203" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/shops/shopframe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.6594724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="17" selection-start="708" selection-end="708" vertical-scroll-proportion="0.46619216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="438" column="43" selection-start="13943" selection-end="13943" vertical-scroll-proportion="0.03045067" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="32" selection-end="32" vertical-scroll-proportion="0.028801844" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/subview/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="253" selection-end="263" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/picture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.32635984">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,5 @@
+目录存放说明
+apps/    程序里所用到的js
+ueditor/   在线编辑器
+zTree       树控件
+vticker/ 新闻循环滚动 

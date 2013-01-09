@@ -1,0 +1,24 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: 汉图 QQ285799123
+ * Date: 12-4-7
+ * Time: 下午9:36
+ * 欢迎联系
+ *To change this template use File | Settings | File Templates.
+ */
+class manager extends CI_Controller
+{
+    public function view($page = 'home')
+    {
+        if (!file_exists('application/views/manager/' . $page . '.php')) {
+            // Whoops, we don't have a page for that!
+            show_404();
+        }
+        $data['title'] = ucfirst($page); // Capitalize the first letter
+
+        $this->load->view('manager/' . $page, $data);
+
+
+    }
+}

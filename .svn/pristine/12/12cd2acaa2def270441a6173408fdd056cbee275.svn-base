@@ -1,0 +1,22 @@
+
+<div class="element page-footer">
+         page-footer&copy;
+
+    </div>
+</div>
+<!-- #container -->
+<script type="text/javascript" src="statics/css/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript">
+  /**
+    $(function () {
+        $('#container').isotope({
+            layoutMode:'fitRows',
+            itemSelector:'.element'
+        });
+
+    });
+   */
+</script>
+
+</body>
+</html>

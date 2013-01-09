@@ -1,0 +1,50 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: hantu
+ * Date: 12-5-12
+ * Time: 下午6:42
+ * To change this template use File | Settings | File Templates.
+ */
+class Shopcategorymodel extends CI_Model
+{
+
+    private  $table = "shop_category";
+    function __construct()
+    {
+        // Call the Model constructor
+        parent::__construct();
+        $this->firelog("我是商铺类型model");
+        $this->load->database();
+
+
+    }
+    public function datalist($page=0,$limit=10){
+        $count = $this->db->count_all("shop_category");
+        $this->firelog($count);
+        if( $count >0 ) {
+            $total_pages = ceil($count/$limit);
+        } else {
+            $total_pages = 0;
+        }
+
+        if ($page > $total_pages) $page=$total_pages;
+        $start = $limit*$page - $limit; // do not put $limit*($page - 1)
+
+        $query = $this->db->get($this->table, $limit,$start);
+
+        $list->page=$page;
+        $list->total=$total_pages;
+        $list->records=$count;
+        $this->firephp->log($list);
+        $i=0;
+        foreach ($query->result() as $row)
+        {
+            $list->rows[$i++] = $row;
+        }
+
+        return json_encode($list);
+        $this->firelog($page);
+
+    }
+}
